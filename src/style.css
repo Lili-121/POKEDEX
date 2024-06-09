@@ -1,0 +1,205 @@
+body::-webkit-scrollbar {
+  width: 0;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lilita+One&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease;
+  min-height: 92vh;
+  padding: 20px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.white-text {
+  color: white !important;
+}
+
+.search {
+  background-color: #334bb8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#logo {
+  width: 50px;
+  margin-right: 20px;
+}
+
+#logo img {
+  width: 100%;
+  height: auto;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.q-input {
+  flex: 1;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.btn-search {
+  flex-shrink: 0;
+}
+
+.loading {
+  font-size: 20px;
+  color: grey;
+}
+
+.poke-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 5px; */
+}
+
+.pokeImg {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.imgPoke img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.pokeId {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 80px;
+}
+
+.pokeInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  text-align: center;
+}
+
+#pokename1 {
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.pokeInfo h5{
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.pokeInfo h6{
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.tipos{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin-top: 20px;
+}
+
+.tipoPokemon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+.tipoPokemonDiv {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.tipoPokemonDiv:hover {
+  border-color: black;
+}
+
+.tipoPokemonText {
+  margin: 0;
+}
+
+.pokeStats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 25px;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.pokeStat {
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.pokeStat p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.pokeStat h2 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.q-linear-progress {
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+}
+
+#nomStat{
+  font-size: 26px;
+  width: 50%;
+  text-align: right;
+}
+
+#numStat{
+  font-size: 25px;
+  width: 50%;
+}
+
+.statinfo{
+  display: flex;
+}
